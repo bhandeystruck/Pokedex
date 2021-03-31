@@ -1,6 +1,9 @@
 .App{
     padding-top: 4rem;
     min-height: 100vh;
+    background-color: tomato;
+    background-size: 500vh;
+
 }
 
 
@@ -10,4 +13,17 @@ nav{
 
 nav a{
     color: white;
+}
+
+.card{
+    -moz-user-select: none;
+    -website-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
